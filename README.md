@@ -2,7 +2,7 @@ inline.py
 =========
 makes data uris
 
-mkdu -h for help.
+inline -h for help.
 
 
 TODOs

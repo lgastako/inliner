@@ -37,10 +37,10 @@ def process_file(filename):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("filenames", nargs="+")
+    parser.add_argument("filename", nargs="+")
     args = parser.parse_args()
 
-    for filename in args.filenames:
+    for filename in args.filename:
         process_file(filename)
 
 
